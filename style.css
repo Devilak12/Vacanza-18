@@ -1,0 +1,76 @@
+body { 
+	background: url(background.png) no-repeat top fixed;
+	background-size: cover;
+	margin:0;
+	padding:0;
+}
+.main {
+	background-color: #F8F8F8;
+	margin:0;
+	padding-top: 2%;
+}
+.head {
+	background-color: black;
+	opacity: 0.5;
+	fill-rule: alpha(opacity=50);
+	padding-top: 35%;
+	padding-bottom: 2%;
+}
+.top {
+	color: white;
+	text-align: center;
+}
+.first { 
+	background-color:white;
+	padding: 10px;
+	margin-top: 5%;
+	margin-right: 10%;
+	margin-left: 10%;
+
+}
+.second {
+	background-color:white;
+	padding: 10px;
+	margin-top: 5%;
+	margin-right: 10%;
+	margin-left: 10%;
+
+}
+.third {
+	background-color:white;
+	padding: 10px;
+	margin-top: 5%;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+
+}
+footer {
+	background:url("footer.png");
+	margin-right: 0;
+	margin-left: 0;
+	text-align: center;
+	color: white;
+	padding-top: 10%;
+
+}
+.cpy {
+	background-color: #8B4292;
+	padding: 0.5%;
+	font-family:sans-serif;
+	font-size: 75%;
+}
+.rule{
+	text-decoration: none;
+}
+.rule button {
+	text-decoration:none;
+	color: green;
+	display: block;
+	margin-right: 0;
+	background-color:#fff;
+	border-color: black;
+	border-radius: 4px;
+	padding: 1%;
+	margin-top: 1%;
+}
