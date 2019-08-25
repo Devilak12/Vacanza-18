@@ -10,37 +10,22 @@ body {
 	padding-top: 2%;
 	font-family: sans-serif;
 }
-.first_img {
-	max-width: 30%;
-	object-fit: cover;
-	float: right;
-	margin: 0px;
-}
-.second_img {
-	max-width: 30%;
-	object-fit: cover;
-	float: left;
-	margin: 0px;
-}
-.third_img {
-	max-width: 30%;
-	object-fit: cover;
-	float: right;
-	margin: 0px;
-}
 .head {
 	padding-bottom: 2%;
 	padding-top: 2%;
 	padding-right: 2%;
 	padding-left: 2%;
+	
 }
 .head span {
 	color: white;
 	font-size: 25px;
 	float: left;
+	position: fixed;
 	font-family: sans-serif;
 	margin-top: 0;
 }
+
 .head a { 
 	color: white;
 	float: right;
@@ -59,7 +44,9 @@ body {
 	color: white;
 	text-align: center;
 	margin-top: 100px;
+	
 }
+
 
 .top li {
 	color: white;
@@ -77,39 +64,179 @@ body {
 	padding: 20px;
 	margin-right: 20px;
 	border-color: white;
+	border-width: 1px;
 
 }
 .top svg {
 	transform: scale(0.5);
 }
+.rot1 {
+	margin-left: 500px;
+	width: 250px;
+	height: 250px;
+	transition-property: transform;
+	transition-duration: 1s;
+	transition-timing-function: ease-in;
+}
+.rot1:hover {
+		transform: rotate(1080deg) scale(1.1);
+}
 .first { 
-	background-color:white;
-	padding: 10px;
+background-color:#000;
+	height:300px;
+	width: 90%;
 	margin-top: 5%;
-	margin-right: 10%;
-	margin-left: 10%;
-	box-shadow: 0px 0px 20px;
-	box-sizing: 
+	margin-left:5%;
+	box-shadow: 0px 0px 20px; 
+	display: flex;
 
 }
-.second {
-	background-color:white;
+#t1 {
+	height: 100%;
+	width:70%;
+	background-color: white;
 	padding: 10px;
-	margin-top: 5%;
-	margin-right: 10%;
-	margin-left: 10%;
-	box-shadow: 0px 0px 20px;
+	box-sizing: border-box;
+	line-height: 1.8em;
+	font-size: 1.18em;
 
 }
-.third {
-	background-color:white;
+#im1 {
+	height: 100%;
+	width:30%;
 	padding: 10px;
+	box-sizing: border-box;
+	background:url(vintage.jpg) no-repeat right;
+	background-size: cover;
+}
+.rule
+{
+	text-decoration: none;
+	color:green;
+}
+.rule button{
+	text-decoration: none;
+	color: #239B56;
+	display: block;
+	margin-right: 0;
+	background-color:#fff;
+	border-color: #239B56;
+	border-radius: 4px;
+	border-width: 1px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 1%;
+}
+.rule button:hover {
+	background-color: #239B56;
+	color: white;
+}
+.second { 
+	background-color:#000;
+	height:300px;
+	width: 90%;
 	margin-top: 5%;
-	margin-right: 10%;
-	margin-left: 10%;
-	margin-bottom: 10%;
-	box-shadow: 0px 0px 20px;
+	margin-left:5%;
+	box-shadow: 0px 0px 20px; 
+	display: flex;
 
+}
+
+#im2 {
+	height: 100%;
+	width: 30%;
+	background:url(quiz.jpg);
+	background-size: cover;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#t2 {
+	height: 100%;
+	width:70%;
+	background-color: white;
+	padding: 10px;
+	box-sizing: border-box;
+	line-height: 1.8em;
+	font-size: 1.2em;
+
+}
+.rule2 {
+	text-decoration: none;
+}
+#t2 button {
+	text-decoration: none;
+	color: #239B56;
+	display: block;
+	margin-right: 0;
+	background-color:#fff;
+	border-color: #239B56;
+	border-radius: 4px;
+	border-width: 1px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 1%;
+	margin-top: 1%;
+}
+#t2 button:hover {
+	background-color: #239B56;
+	color: white;
+}
+
+.third { 
+	background-color:#000;
+	height:300px;
+	width: 90%;
+	margin-top: 5%;
+	margin-left:5%; 
+	margin-bottom:10%;
+	box-shadow: 0px 0px 20px; 
+	display: flex;
+
+}
+#t3 {
+	height: 100%;
+	width:70%;
+	background-color: white;
+	padding: 10px;
+	box-sizing: border-box;
+	line-height: 1.8em;
+	font-size: 1.2em;
+
+}
+#im3 {
+	height: 100%;
+	width: 30%;
+	background:url(magic.jpg);
+	background-size: cover;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#t3 button {
+	text-decoration: none;
+	color: #239B56;
+	display: block;
+	margin-right: 0;
+	background-color:#fff;
+	border-color: #239B56;
+	border-radius: 4px;
+	border-width: 1px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 1%;
+	margin-top: 1%;
+}
+#t3 button:hover {
+	background-color: #239B56;
+	color: white;
+}
+.rule3 {
+	text-decoration: none;
 }
 footer {
 	background:url("footer.png");
@@ -118,7 +245,15 @@ footer {
 	text-align: center;
 	color: white;
 	padding-top: 10%;
-
+	animation: myanimation;
+	animation-duration: 4s;
+	animation-iteration-count: infinite; 
+	animation-direction: alternate;
+	animation-fill-mode: forwards;
+}
+@keyframes myanimation{
+	0%{transform: scale(1);}
+	100%{transform:scale(1.1);}
 }
 .cpy {
 	background-color: #8B4292;
@@ -126,17 +261,8 @@ footer {
 	font-family:sans-serif;
 	font-size: 75%;
 }
-.rule{
-	text-decoration: none;
+.clear{
+	clear: all;
 }
-.rule button {
-	text-decoration:none;
-	color: green;
-	display: block;
-	margin-right: 0;
-	background-color:#fff;
-	border-color: black;
-	border-radius: 4px;
-	padding: 1%;
-	margin-top: 1%;
-}
+
+
