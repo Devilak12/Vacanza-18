@@ -76,8 +76,33 @@ body {
 .top svg {
 	transform: scale(0.5);
 }
+.top button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.top button span:after {
+  content: '\2192';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.top button:hover span {
+  padding-right: 35px;
+}
+
+.top button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 .rot1 {
-	margin-left: 525px;
+	margin-left: 40%;
+	opacity: 0.9;
 	width: 250px;
 	height: 250px;
 	transition-property: transform;
@@ -253,7 +278,7 @@ background-color:#fff;
 	padding-left: 2%;
 	padding-right: 2%;
 	margin-top: 1%;
-	margin-top: 1%;
+	
 }
 #t3 button:hover {
 	background-color: #00695c;
@@ -273,31 +298,30 @@ footer {
 }
 @keyframes myanimation{
 	0%{transform: scale(1);}
-	100%{transform:scale(1.08);}
+	50%{transform:scale(1.2);}
+	100%{transform:scale(1);}
 }
+
 .back1 {
-	text-align: center;
-	background:url(footer.png);
+	position: relative;
+}
+.back1 img {
 	height: 200px;
 	width: 100%;
-	box-sizing: border-box;
+	margin: 0;
 	animation: myanimation;
-	animation-duration: 4s;
-	animation-iteration-count: infinite; 
-	animation-direction: alternate;
-	animation-fill-mode: forwards;
-	overflow: hidden;
-	z-index: -2;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
 }
 #bk2 {
-	width: 200px;
-	transform: translate(570px,0) rotate(0);
-	text-align: center;
-	margin-top: 50px;
-	font-size: 2em;
-	box-sizing: border-box;
+	position: absolute;
+	top: 30%;
+	left: 46%;
+	font-size: 200%;
+	backface-visibility: 0;
+	z-index: 1;
 }
-#bk2 a {
+#bk2 a{
 	color: white;
 }
 .cpy {
