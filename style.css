@@ -56,7 +56,7 @@ body {
 
 .nav
 {
-	
+	justify-content: center;
 	left: 67%;
 	position: fixed;
 	z-index: 1;
@@ -120,15 +120,15 @@ body {
   right: 0;
 }
 .rot1 {
-	margin-left: 40%;
 	opacity: 0.9;
-	width: 250px;
 	height: 250px;
-	transition-property: transform;
+}
+.rot1 img {
+		transition-property: transform;
 	transition-duration: 1.1s;
 	transition-timing-function: ease-in;
 }
-.rot1:hover {
+.rot1 img:hover {
 		transform: rotate(1080deg) scale(1.1);
 }
 .first { 
