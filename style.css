@@ -18,7 +18,7 @@ body {
 	
 }
 .head span {
-	color: white;
+	
 	font-size: 25px;
 	float: left;
 	position: fixed;
@@ -27,28 +27,37 @@ body {
 	z-index: 1;  
 }
 /*hover effect on Nav bar*/
-.nav a { 
+.nav a {
+	text-decoration: none;
 	color: white;
-	float: right;
+}
+
+.nav button {
+	color: white;
+	cursor: pointer;
+	width: 125px;
 	background-color:rgb(68,70,69);
 	text-decoration: none;
+	border-color: rgb(68,70,69);
 	margin-right: 0.5em;
-	list-style: none;
 	font-size: 25px;
-	padding: .5%;
+	padding: 1.5%;
 	border-radius: 5px;
 	font-family: sans-serif;
 	transition-property: background,transform;
-
 }
-.nav a:hover {
+.nav button:hover {
+	cursor: pointer;
 	background-color: rgb(0,0,0);
 	transform: scale(1.09);
 	transition-duration: 1s;
+
 }
+
 .nav
 {
-	left: 70%;
+	
+	left: 67%;
 	position: fixed;
 	z-index: 1;
 }
@@ -128,7 +137,7 @@ body {
 		transform: rotate(1080deg) scale(1.1);
 }
 .first { 
-background-color:#fff;
+	background-color:#fff;
 	height:300px;
 	width: 90%;
 	margin-top: 5%;
