@@ -26,7 +26,7 @@ body {
 	margin-top: 0;
 	z-index: 1;  
 }
-
+/*hover effect on Nav bar*/
 .nav a { 
 	color: white;
 	float: right;
@@ -81,8 +81,15 @@ body {
 	border-width: 2px;
 
 }
+/*hover effect on svg*/
 .top svg {
 	transform: scale(0.5);
+}
+.top svg:hover {
+	transform: scale(0.7);
+	transition-property: transform;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
 }
 .top button span {
   cursor: pointer;
